@@ -1,0 +1,23 @@
+.container{
+    h1{
+        text-align: center;
+    }
+    .items{
+        height: 70vh;
+        width: 55vw;
+        margin: 0 auto;
+        overflow-y: scroll;
+        .item{
+            background-color: orange;
+            .title{
+                padding: 10px;
+                text-transform: uppercase;
+                font-weight: bold;
+            }
+            .description{
+                padding: 10px;
+
+            }
+        }
+    }
+}
